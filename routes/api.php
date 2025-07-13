@@ -6,7 +6,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PublikasiController;
 
 
-Route::post('/login', [AuthController::class, 'login']);
+Route::post('/login', [AuthController::class, 'login']); 
 
 Route::middleware('auth:sanctum')->group(function () {
     
