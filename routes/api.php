@@ -18,9 +18,9 @@ Route::middleware('auth:sanctum')->group(function () {
     // Publikasi
     Route::get('/publikasi', [PublikasiController::class, 'index']);
     Route::post('/publikasi', [PublikasiController::class, 'store']);
-    Route::get('/publikasi/{id}', [PublikasiController::class, 'show']); // Diperbaiki
-    Route::put('/publikasi/{id}', [PublikasiController::class, 'update']); // Diperbaiki
-    Route::delete('/publikasi/{id}', [PublikasiController::class, 'destroy']); // Diperbaiki
+    Route::get('/publikasi/{id}', [PublikasiController::class, 'show']); 
+    Route::put('/publikasi/{id}', [PublikasiController::class, 'update']); 
+    Route::delete('/publikasi/{id}', [PublikasiController::class, 'destroy']); 
 });
 
 
