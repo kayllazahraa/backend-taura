@@ -16,11 +16,11 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::post('/logout', [AuthController::class, 'logout']);
 
     // Publikasi
-    Route::get('/publikasi', [PublikasiController::class, 'index']); //menampilkan semua publikasi
-    Route::post('/publikasi', [PublikasiController::class, 'store']); //membuat publikasi baru
-    Route::get('/publikasi/{id}', [PublikasiController::class, 'detail']); //menampilkan detail publikasi
-    Route::put('/publikasi/{id}', [PublikasiController::class, 'edit']); //mengedit data publikasi
-    Route::delete('/publikasi/{id}', [PublikasiController::class, 'hapus']); //menghapus publikasi
+    Route::get('/publikasi', [PublikasiController::class, 'index']);
+    Route::post('/publikasi', [PublikasiController::class, 'store']);
+    Route::get('/publikasi/{id}', [PublikasiController::class, 'show']); // Diperbaiki
+    Route::put('/publikasi/{id}', [PublikasiController::class, 'update']); // Diperbaiki
+    Route::delete('/publikasi/{id}', [PublikasiController::class, 'destroy']); // Diperbaiki
 });
 
 
