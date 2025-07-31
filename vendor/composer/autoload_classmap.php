@@ -4176,7 +4176,6 @@ return array(
     'PharIo\\Manifest\\ContainsElement' => $vendorDir . '/phar-io/manifest/src/xml/ContainsElement.php',
     'PharIo\\Manifest\\CopyrightElement' => $vendorDir . '/phar-io/manifest/src/xml/CopyrightElement.php',
     'PharIo\\Manifest\\CopyrightInformation' => $vendorDir . '/phar-io/manifest/src/values/CopyrightInformation.php',
-    'PharIo\\Manifest\\ElementCollection' => $vendorDir . '/phar-io/manifest/src/xml/ElementCollection.php',
     'PharIo\\Manifest\\ElementCollectionException' => $vendorDir . '/phar-io/manifest/src/exceptions/ElementCollectionException.php',
     'PharIo\\Manifest\\Email' => $vendorDir . '/phar-io/manifest/src/values/Email.php',
     'PharIo\\Manifest\\Exception' => $vendorDir . '/phar-io/manifest/src/exceptions/Exception.php',
