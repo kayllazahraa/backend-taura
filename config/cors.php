@@ -2,7 +2,7 @@
 return [
     'paths' => ['api/*'],
     'allowed_methods' => ['*'],
-    'allowed_origins' => ['https://web-davin-frontend.vercel.app'],
+    'allowed_origins' => ['https://frontend-taura.vercel.app'],
     'allowed_origins_patterns' => [],
     'allowed_headers' => ['*'],
     'exposed_headers' => [],
