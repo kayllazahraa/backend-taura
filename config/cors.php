@@ -1,6 +1,6 @@
 <?php
 return [
-    'paths' => ['api/*'],
+    'paths' => ['api/*', 'login'],
     'allowed_methods' => ['*'],
     'allowed_origins' => ['https://frontend-taura.vercel.app'],
     'allowed_origins_patterns' => [],
