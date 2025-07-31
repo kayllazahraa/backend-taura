@@ -2,7 +2,7 @@
 return [
     'paths' => ['api/*'],
     'allowed_methods' => ['*'],
-    'allowed_origins' => ['http://localhost:5173', 'https://web-pbw-frontend.vercel.app', 'https://web-tauradavin.vercel.app'],
+    'allowed_origins' => ['https://pbw-frontend-davin.vercel.app'],
     'allowed_origins_patterns' => [],
     'allowed_headers' => ['*'],
     'exposed_headers' => [],
